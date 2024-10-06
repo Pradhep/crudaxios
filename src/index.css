@@ -1,0 +1,51 @@
+/* index.css */
+
+/* Add padding around form sections */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #495057;
+}
+
+.form-control {
+  border-radius: 0.25rem;
+  box-shadow: none;
+}
+
+/* Button spacing */
+.btn {
+  margin-top: 10px;
+}
+
+/* Table styling */
+.table {
+  margin-top: 20px;
+}
+
+.table thead th {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+
+.table tbody td {
+  vertical-align: middle;
+}
+
+/* Add hover effect to buttons */
+.btn-warning:hover, .btn-danger:hover, .btn-primary:hover, .btn-success:hover {
+  opacity: 0.85;
+}
+
+/* Heading center alignment */
+.text-center {
+  text-align: center;
+}
+
+/* Global padding for the container */
+.container-fluid {
+  padding: 30px;
+}
